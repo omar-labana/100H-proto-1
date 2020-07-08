@@ -1,0 +1,166 @@
+body {
+  background-image: url("../img/bg.jpg");
+
+}
+
+h2 {
+  color: rgb(248, 246, 255);
+}
+
+.chat-ui {
+  background-color: white;
+  border-radius: 10px;
+  min-width: 320px;
+  padding-top: 10px;
+  border: 10px solid black;
+
+}
+
+.msg-area {
+  height: 400px;
+  overflow-y: scroll;
+}
+
+/* M-A */
+/* M-A */
+/* M-A */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #292929;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
+
+hr {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.send-card {
+  margin-left: 10px;
+  padding: 0 0 10px 0;
+}
+
+.send-btn {
+  width: fit-content;
+  margin: auto;
+}
+
+.msg {
+  margin: 2.5px 15px 2.5px 15px;
+  max-width: 80%;
+  word-wrap: break-word;
+  border-radius: 6px;
+  padding: 0 10px 0 10px;
+  color: white;
+}
+
+.msg-recived {
+  background: #0f0c29;
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+
+  float: left;
+  clear: both;
+}
+
+.msg-sent {
+  background: #232526;
+  background: -webkit-linear-gradient(to right, #414345, #232526);
+  background: linear-gradient(to right, #414345, #232526);
+  float: right;
+  clear: both;
+}
+
+.form-outline input[type="text"]:focus:not([readonly])+label {
+  color: black;
+  border: #0f0c29;
+}
+
+.form-outline:focus {
+  color: #cc0000;
+}
+
+/* CHAT */
+/* CHAT */
+/* CHAT */
+/* CHAT */
+/* CHAT */
+/* CHAT */
+/* CHAT */
+/* CHAT */
+.palette-ui {
+  /* background-color: black; */
+  border-radius: 10px;
+  min-width: 220px;
+  padding-top: 10px;
+  /* border: 10px solid black; */
+  /* margin-left: 15px; */
+  height: 400px;
+}
+
+.palette-color-btn {
+  padding: 0;
+  height: 50px;
+  width: 50px;
+  border: 3px solid whitesmoke;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
+
+.gray {
+  background-color: dimgray;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.violet {
+  background-color: violet;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.brush {
+  margin-left: 25px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+
+  color: white;
+}
+
+#sketch-holder {
+  width: 100%;
+  min-width: 300px;
+  margin-top: 30px;
+}
