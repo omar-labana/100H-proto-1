@@ -12,7 +12,6 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "./client/index.html"));
 });
 io.on("connection", (socket) => {
-  //   console.log("gay");
   socket.on("cords", (cords) => {
     io.emit("draw", cords);
   });
